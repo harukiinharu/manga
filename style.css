@@ -1,0 +1,18 @@
+:root {
+    --img-width: 600px
+}
+
+body {
+    margin: 0;
+    background-color: #333333;
+}
+
+#app {
+    max-width: var(--img-width);
+    margin: 0 auto;
+    font-size: 0;
+}
+
+img {
+    width: var(--img-width);
+}
